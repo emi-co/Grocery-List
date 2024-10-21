@@ -1,9 +1,26 @@
 body {
     text-align: center;
     color: white;
-    background-color: coral;
+    background-color:indianred;
+
 }
 
-input[type="text"] {
-    text-align: center;
+
+.list {
+    list-style: none;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 30px;
+}
+
+.grocery {
+    font-size : 20px;
+}
+
+.addBtn {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
 }
