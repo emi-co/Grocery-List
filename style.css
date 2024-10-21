@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+#toggleButton {
+  padding: 10px 20px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+#toggleButton.active {
+  background-color: red;
+  color: white;
+}
+
+ul li {
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Strikethrough functionality */
+/* ul li.checked {
+  text-decoration: line-through;
+  color: 333;
+}
+
+ul li.checked::before {
+  content: "";
+} */
+
+input[type="checkbox"]:checked + label.strikethrough {
+  text-decoration: line-through;
+}
