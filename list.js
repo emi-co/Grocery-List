@@ -10,6 +10,7 @@ function list() {
     grocery.value = "";
 }
 
+
 function add() {
     const addBtn = document.querySelector(".addBtn");
     addBtn.addEventListener("click", list);
@@ -17,3 +18,7 @@ function add() {
 }
 
 add();
+
+
+
+
