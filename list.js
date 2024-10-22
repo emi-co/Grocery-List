@@ -37,8 +37,10 @@ function getNewItem() {
   checkbox.addEventListener("change", function () {
     if (checkbox.checked) {
       span.style.textDecoration = "line-through";
+      span.style.color = "grey";
     } else {
       span.style.textDecoration = "none";
+      span.style.color = "currentColor";
     }
   });
 

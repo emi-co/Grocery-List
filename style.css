@@ -34,16 +34,6 @@ inputValue {
 
 /*                          Checkbox Restyling                            */
 /* LABEL STYLES */
-.labelcontrol {
-  font-family: arial;
-  color: aquamarine;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 1.1;
-  display: grid;
-  grid-template-columns: 1em auto;
-  gap: 0.5em;
-}
 
 span {
   font-family: arial;
