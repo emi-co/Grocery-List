@@ -1,6 +1,7 @@
 body {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/017/023/144/non_2x/green-abstract-background-green-background-design-abstract-futuristic-background-green-modern-background-green-abstract-background-for-templates-cards-and-websites-free-vector.jpg);
+    background-image: url(https://th.bing.com/th/id/R.abb842075dd57fc1b1906dc20ffc1c8d?rik=0ddQJIom%2bdXb0w&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2ff%2f7%2f905367-amazing-purple-and-pink-backgrounds-1920x1080-hd.jpg&ehk=%2fnwuln%2fpXINtjsWFz9fdBleu8GbjFcxW1TyEf%2fl5MuY%3d&risl=&pid=ImgRaw&r=0);
     color: white;
+    
    
 
 }
@@ -22,13 +23,13 @@ body {
 }
 
 .list {
+    top: 20%;
+    
+
     width:10px;
     height: 170px;
 }
-.list li {
-   
-   
-}
+
 .list li:hover {
     cursor: pointer;
     text-decoration: line-through;
@@ -55,7 +56,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     top: 30%;
-    left: 65%;
+    left: 64.8%;
    
 }
 
@@ -71,9 +72,9 @@ h1 {
 
 .Purchased {
    
-    color: #ccc;
+    color: white;
    position: absolute;
-   top: 28.5%;
+   top: 25%;
    left: 10%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 4px black;
@@ -95,8 +96,12 @@ h1 {
 
 h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-shadow: 6px 5px 4px black;
+    border: 10px;
+    border-color: 10px;
+    
+
    
 }
 
@@ -110,6 +115,10 @@ h2 {
     font-size: 20px;
     margin: 3px;
     padding: 5px;
+    box-shadow: 5px 5px 5px black;
+    
+   
+    
     
     
    
@@ -119,11 +128,13 @@ h2 {
 .list button:hover {
     cursor:pointer;
     text-decoration: line-through;
+    
 }
 
 .Purchased button {
     text-decoration: line-through;
     margin: 3px;
     padding: 5px;
-    
+    box-shadow: 3px 3px 3px black;
+   
 }
