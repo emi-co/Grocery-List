@@ -1,10 +1,14 @@
 let counter = 0;
+let allItems = [];
+let purchased = [];
+let unpurchased = [];
 
 //Create New List Item
 document.getElementById("Add").onclick = getNewItem;
 
 function getNewItem() {
   counter++;
+  allItems.push({ id: "checkbox-" + counter, text: inputValue });
 
   // var li = document.createElement("li");
   var checkbox = document.createElement("input");
@@ -16,6 +20,7 @@ function getNewItem() {
   var inputValue = document.getElementById("input").value;
   var label = document.createElement("label");
   label.htmlFor = checkbox.id;
+  // label.className = "labelcontrol";
   var span = document.createElement("span");
   span.textContent = inputValue;
 
@@ -40,5 +45,3 @@ function getNewItem() {
   //clear
   document.getElementById(input).value = "";
 }
-
-//toggle viewPurchased
