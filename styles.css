@@ -80,9 +80,6 @@ h2 {
   text-shadow: 6px 5px 4px black;
 }
 
-.list h2 {
-}
-
 .list button {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -98,6 +95,7 @@ h2 {
 
 .Purchased button {
   text-decoration: line-through;
+  font-size: 20px;
   margin: 3px;
   padding: 5px;
 }
