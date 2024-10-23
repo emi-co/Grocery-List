@@ -93,13 +93,14 @@ h2 {
   box-shadow: 5px 5px 5px black;
 }
 
-.list button:hover {
+.list button:active {
   cursor: pointer;
   text-decoration: line-through;
 }
 
 .Purchased button {
   text-decoration: line-through;
+  font-size: 20px;
   margin: 3px;
   padding: 5px;
   box-shadow: 3px 3px 3px black;
