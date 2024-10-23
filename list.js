@@ -22,6 +22,10 @@ function switchToPurchased(item) {
 }
 
 
+
+
+
+
 function add() {
     const addBtn = document.querySelector(".addBtn");
     addBtn.addEventListener("click", list);
@@ -29,6 +33,7 @@ function add() {
 }
 
 add();
+
 
 
 
