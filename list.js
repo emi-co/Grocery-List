@@ -13,13 +13,15 @@ function list() {
     grocery.value = "";
 }
 
-function switchToPurchased(item) {
-    const purchasedSection = document.querySelector(".Purchased");
-    item.remove();
-    item.classList.add("purchased-item");
-    purchasedSection.appendChild(item);
 
-}
+
+// function switchToPurchased(item) {
+//     const purchasedSection = document.querySelector(".Purchased");
+//     item.remove();
+//     item.classList.add("purchased-item");
+//     purchasedSection.appendChild(item);
+
+// }
 
 
 function add() {
